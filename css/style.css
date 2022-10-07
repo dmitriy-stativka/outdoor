@@ -1,8 +1,48 @@
 .header{
     width: 1440px;
     height: 80px;
+    display: flex;
+}
+.logo{
+    padding: 20px 5px 10px 100px;
 }
 .container{
     width: 1200px;
     height: 60px;
+    display: flex;
+}
+.main{
+    width: 1440px;
+    height: 640px;
+    color: #FFFFFF;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 60px;
+    margin: 20px;
+}
+.header.menu{
+    display: flex;
+    width: 1200px;
+    height: 60px;
+}
+.list{
+    margin: 20px;
+}
+.header_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    background-color: #575445;
+    margin: 10px;
+    color: #FFFFFF;
+    height: 44px;
+    width: 143px;
+    text-decoration: none;
 }
