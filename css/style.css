@@ -161,4 +161,53 @@ li{
 
 /* about us end */
 
+
+/* Our promise start */
+
+.our_promise{
+    position: relative;
+}
+
+.our_promise .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_promise-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+}
+
+.our_promise-list{
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.our_promise-item{
+    width: 100%;
+    max-width: 380px;
+}
+.our_promise_bg-image{
+    position: absolute;
+    z-index: -1;
+}
+.our_promise_bg1-image{
+    top: 0;
+    right: 0;
+}
+.our_promise_bg2-image{
+    bottom: 0;
+    left: 0;
+}
+/* Our promise end */
+
 /* main end */
