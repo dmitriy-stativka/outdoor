@@ -39,6 +39,7 @@ li{
 }
 .pre-title {
     color: #E6B939; 
+    text-transform: uppercase;
 }
 
 .gap-top{
@@ -190,6 +191,7 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #FAFAFC;
 }
 
 .our_promise-info{
@@ -204,14 +206,15 @@ li{
     display: flex;
     /* justify-content: space-around; */
     /* justify-content: space-between; */
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
 }
 
 .our_promise-item{
     width: 100%;
-    max-width: 380px;
+    max-width: 350px;
+    margin: 25px 25px;
 }
 .our_promise_bg-image{
     position: absolute;
@@ -226,5 +229,66 @@ li{
     left: 0;
 }
 /* Our promise end */
+
+/* meet the family start */
+
+.meet_the_family .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.meet_the_family-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+.meet_the_family-list{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.meet_the_family-item{
+    width: 100%;
+    max-width: 380px;
+    margin: 8px 0px;
+}
+
+.meet_the_family_bg_image-1{
+    background: url(../images/Meet\ the\ family\ \(1\).png) no-repeat center center;
+    height: 470px;
+    border-radius: 10px;
+}
+.meet_the_family_bg_image-2{
+    background: url(../images/Meet\ the\ family\ \(2\).png) no-repeat center center;
+    height: 470px;
+    border-radius: 10px;
+}
+.meet_the_family_bg_image-3{
+    background: url(../images/Meet\ the\ family\ \(3\).png) no-repeat center center;
+    height: 470px;
+    border-radius: 10px;
+}
+.meet_the_family_bg_image-4{
+    background: url(../images/Meet\ the\ family\ \(4\).png) no-repeat center center;
+    height: 470px;
+    border-radius: 10px;
+}
+.meet_the_family_bg_image-5{
+    background: url(../images/Meet\ the\ family\(5\).png) no-repeat center center;
+    height: 470px;
+    border-radius: 10px;
+}
+.meet_the_family_bg_image-6{
+    background: url(../images/Meet\ the\ family\(6\).png) no-repeat center center;
+    height: 470px;
+    border-radius: 10px;
+}
+
+
+/* meet the family end */
 
 /* main end */
