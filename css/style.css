@@ -292,4 +292,36 @@ li{
 
 /* meet the family end */
 
+/* water start */
+.water{
+    height: 100vh;
+    max-height: 600px;
+    background: url(../images/water.png) no-repeat center center;
+    background-size: cover;
+}
+
+/* water end */
+.water{
+    position: relative;
+}
+.water_info{
+    background: #292C32;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 16px;
+}
+
+.water_info-list{
+    padding: 20px; 
+}
+
+.water_info-link{
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+
+
+
 /* main end */
