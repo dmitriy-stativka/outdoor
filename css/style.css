@@ -296,14 +296,15 @@ li{
 .water{
     height: 100vh;
     max-height: 600px;
-    background: url(../images/water.png) no-repeat center center;
+    background: url(../images/water/water.png) no-repeat center center;
     background-size: cover;
 }
 
-/* water end */
+
 .water{
     position: relative;
 }
+
 .water_info{
     background: #292C32;
     position: absolute;
@@ -321,7 +322,144 @@ li{
     margin: 20px;
 }
 
+/* water end */
+
+/* shop start */
+.shop{
+    height: 100vh;
+    max-height: 400px;
+    background-color: #375C58;
+    background-image: url(../images/shop/shop_bg.png);
+    background-size: contain;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop_info{
+    max-width: 600px;
+    text-align: center;
+}
+
+.shop_pre-title{
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.shop_title{
+    color: #E6B939; 
+}
+
+.shop_p{
+    color:white ;
+}
+
+.shop_buttons-link{
+    background:#FFFFFF;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.shop_bg{
+    position: absolute;
+    z-index: 1;
+}
+/* shop end */
+
+/* buyer_guid start */
+.buyer_guid-list{
+    margin: 0 -20px;
+}
+
+.buyer_guid-info{
+    max-width: 600px;
+}
+
+.buyer_guid-item{
+    padding: 0px 20px;
+}
+
+.buyer_guid-list{
+    display: flex;
+}
+
+.author-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-info_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-info_name{
+    margin: 0;
+}
+
+.author-info_position{
+    color: #E6B939;
+}
+
+.buyer_guid-link{
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* buyer_guid end */
 
 
+/* some_light_reading start */
 
-/* main end */
+.some_light_reading{
+    position: relative;
+}
+.some_light_reading .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.some_light_reading_bg_image{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+.some_light_reading_bg_image-1{
+    top: -25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+.some_light_reading_bg_image-2{
+    bottom: 0;
+    left: 0;
+}
+
+/* some_light_reading end */
+
+/* footer start */
+
+.footer{
+    background: #575445;
+}
+
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer_menu-list{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+
+/* footer end */
