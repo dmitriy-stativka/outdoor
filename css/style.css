@@ -449,6 +449,11 @@ li{
     background: #575445;
 }
 
+.footer_logo{
+    display: flex;
+    justify-content: center;
+}
+
 .footer_menu{
     display: flex;
     justify-content: space-between;
@@ -459,6 +464,11 @@ li{
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
+}
+
+.footer_imput{
+    max-width: 450px;
+    width: 100%s;
 }
 
 
