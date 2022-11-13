@@ -452,6 +452,8 @@ li{
 .footer_logo{
     display: flex;
     justify-content: center;
+    margin: 0 0 75px 0;
+    /* если пишешь падинг эффект тот же */
 }
 
 .footer_menu{
@@ -466,12 +468,54 @@ li{
     color: #FFFFFF;
 }
 
-.footer_imput{
+.footer_menu-list1{
+    padding: 5px 0;
+}
+
+.footer_input{
     max-width: 450px;
     width: 100%s;
 }
-.imput_text{
+.input_text{
     color: white;
+    margin: 0px;
+}
+
+.footer_input-info{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.input_email{
+    width: 450px;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.footer_input-button{
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+    background: #575445;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 10px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.copyright_text{
+    color: white;
+}
+
+.copyright_images-1{
+    padding: 10px;
 }
 
 
