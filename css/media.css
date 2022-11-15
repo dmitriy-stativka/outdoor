@@ -1,0 +1,61 @@
+@media (max-width: 1024px) {
+    .pre-title{
+        font-size: 20px;
+    }
+    .hero_section-info .-h1{
+        font-size: 33px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_us-info{
+        order: 0;
+        text-align: center;
+    }
+    .about_us-img{
+        order: 1;
+    }
+    .water_info{
+        background: #292C32;
+        position: absolute;
+        bottom: 40px;
+        right: 10px;
+        border-radius: 16px;
+    }
+    .water_info-list{
+        font-size: 9px;
+    }
+    .heading-title{
+        font-size: 30px;
+    }
+    .buyer_guid-info{
+        text-align: center;
+    }
+    .buyer_guid-list{
+        flex-direction: column;
+    }
+    .buyer_guid-item{
+        padding: 10% 0;
+    }
+    .some_light_reading-img{
+        order: 2;
+    }
+    .some_light_reading-info{
+        text-align: center;
+    }
+    .footer_input{
+    padding: 5%;
+    text-align: center;
+    }
+    .footer_menu{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    }
+    .footer_logo{
+        margin: 0;
+    }
+    /* .-h2 .shop_title */
+}
