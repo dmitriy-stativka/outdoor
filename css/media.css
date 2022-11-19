@@ -57,5 +57,36 @@
     .footer_logo{
         margin: 0;
     }
+    .about_us-img-media{
+        width: 100%;
+    }
     /* .-h2 .shop_title */
 }
+@media (max-width: 768px) {
+    .hero_section-info .-h1{
+        font-size: 30px;
+    }
+    .hero_section-info{
+        text-align: center;
+    }
+    .input_text{
+        padding: 10px;
+    }
+}
+@media (max-width: 480px){
+    .water_info-list{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .water_info{
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+
+
+    
+    
