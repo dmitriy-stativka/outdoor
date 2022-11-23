@@ -17,6 +17,10 @@ a{
 li{ 
     display: inline-block;
 }
+button{
+    border: none;
+    background: none;
+}
 /* clean styles end */
 
 /* General settings start */
@@ -63,11 +67,13 @@ li{
 .header .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo img{
     max-width: 130px;
     width: 100%;
+    padding: 0 10px;
 }
 
 .header_menu{
@@ -148,6 +154,7 @@ li{
     width: 100%;
     max-width: 500px;
     color: #FFFFFF;
+    margin: 10px;
 }
 .hero_section-info .-h1{
     margin: 1px 0px 5px 0px;
@@ -181,6 +188,9 @@ li{
     bottom: 0;
     left: 0;
 }
+.about_us-info{
+    margin: 10px;
+}
 
 /* about us end */
 
@@ -205,6 +215,7 @@ li{
     max-width: 550px;
     width: 100%;
     text-align: center;
+    margin: 0 10px;
 }
 
 .our_promise-list{
@@ -236,7 +247,7 @@ li{
 
 .our_promise_bg-image{
     position: absolute;
-    z-index: -1;
+    z-index: 1;
 }
 .our_promise_bg1-image{
     top: 0;
@@ -344,6 +355,7 @@ li{
 .shop_info{
     max-width: 600px;
     text-align: center;
+    margin: 10px;
 }
 
 .shop_pre-title{
@@ -378,6 +390,7 @@ li{
 
 .buyer_guid-info{
     max-width: 600px;
+    margin: 10px;
 }
 
 .buyer_guid-item{
@@ -429,6 +442,14 @@ li{
     align-items: center;
     gap: 100px;
 }
+.some_light_reading-img{
+    width: 100%;
+}
+
+.some_light_reading-info{  
+    margin: 10px;
+}
+
 .some_light_reading_bg_image{
     position: absolute;
     z-index: -1;
