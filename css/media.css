@@ -5,11 +5,24 @@
     .hero_section-info .-h1{
         font-size: 33px;
     }
-    .container{
+    .about_us .container{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+    .buyer_guid .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .some_light_reading .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
     .about_us-info{
         order: 0;
         text-align: center;
@@ -17,6 +30,7 @@
     .about_us-img{
         order: 1;
     }
+
     .water_info{
         background: #292C32;
         position: absolute;
@@ -60,7 +74,69 @@
     .about_us-img-media{
         width: 100%;
     }
-    /* .-h2 .shop_title */
+    .header_menu{
+        flex-direction: column;
+        background: #fff;
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        align-items: center;
+        z-index: 99;
+        transition: top .5s ease;
+    }
+    .header_menu.show{
+        top: 80px;
+    }
+
+    .menu_button{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 0 15px;
+    }
+
+    .menu_button span{
+        width: 20px;
+        height: 2px;
+        border-radius: 50px;
+        background: #292C32;
+        transition: transform .5s ease;
+    }
+
+    .menu_button.active span:nth-child(1){
+        transform: rotate(45deg);
+    }
+    .menu_button.active span:nth-child(2){
+        display: none;
+    }
+    .menu_button.active span:nth-child(3){
+        transform: rotate(-45deg);
+        margin-top: -7px;
+    }
+
+    .header_list{
+        flex-direction: column;
+        margin: 10px 5px;
+        gap: 10px;
+    }
+    .header_buttons{
+        flex-direction: column;
+        margin: 5px 5px;
+        gap: 10px;
+    }
+    .header_item-link{
+        font-size: 15px;
+    }
+    .header_buttons-cart{
+        gap: 18px;
+    }
+    /* .header .container{
+        flex-direction: row;
+    } */
+    .some_light-img-adaptive{
+        width: 100%;
+    }
 }
 @media (max-width: 768px) {
     .hero_section-info .-h1{
@@ -71,6 +147,12 @@
     }
     .input_text{
         padding: 10px;
+    }
+    .header_item-link{
+        font-size: 15px;
+    }
+    .our_promise_bg{
+        width: 100%;
     }
 }
 @media (max-width: 480px){
@@ -83,6 +165,12 @@
         position: absolute;
         bottom: 20px;
         right: 20px;
+    }
+    .about_us_bg_image{
+        width: 100%;
+    }
+    .our_promise_bg-image{
+        width: 100%;
     }
 }
 

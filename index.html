@@ -10,7 +10,7 @@
     <title>Outdoor</title>
 </head>
 <body>
-    <!-- <header class="header">
+    <header class="header">
             <div class="container">
                 <a class="logo" href="/">
                     <img src="./images/logo.jpg" alt="Logo">
@@ -44,8 +44,15 @@
                         </a>
                     </div> 
                 </div>
+
+                <button class="menu_button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
             </div>
-    </header> -->
+    </header>
     <main class="main">
 
         <section class="hero_section">
@@ -337,7 +344,7 @@
         <section class="some_light_reading gap-top gap-bottom">
             <div class="container">
                 <div class="some_light_reading-img">
-                    <img src="./images/some_light_reading/some_light_reading_1.png" alt="about_us_image">
+                    <img class="some_light-img-adaptive" src="./images/some_light_reading/some_light_reading_1.png" alt="about_us_image">
                 </div>
 
                 <div class="some_light_reading-info">
@@ -430,5 +437,12 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.querySelector('.menu_button').addEventListener('click', function(){
+            this.classList.toggle('active');
+            document.querySelector('.header_menu').classList.toggle('show');
+        })
+    </script>
 </body>
 </html>
