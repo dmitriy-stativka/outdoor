@@ -51,7 +51,7 @@
         flex-direction: column;
     }
     .buyer_guid-item{
-        padding: 10% 0;
+        padding: 10px 10px;
     }
     .some_light_reading-img{
         order: 2;
@@ -60,17 +60,22 @@
         text-align: center;
     }
     .footer_input{
-    padding: 5%;
-    text-align: center;
+        width: 400px;
     }
     .footer_menu{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: space-around;
+        font-size: 11px;
     }
-    .footer_logo{
+    /* .footer_logo{
         margin: 0;
+    } */
+    .footer_menu-item .pre-title{
+        font-size: 13px;
     }
+
+    .footer_input .pre-title{
+        font-size: 13px;
+    }
+
     .about_us-img-media{
         width: 100%;
     }
@@ -137,44 +142,75 @@
     .some_light-img-adaptive{
         width: 100%;
     }
+    .copyright{
+        font-size: 10px;
+        text-align: center;
+    }
+
 }
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .hero_section-info .-h1{
         font-size: 30px;
     }
     .hero_section-info{
         text-align: center;
     }
-    .input_text{
-        padding: 10px;
-    }
+
     .header_item-link{
         font-size: 15px;
     }
-    .our_promise_bg{
+    .our_promise_bg-image{
         width: 100%;
     }
+    .footer_menu{
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .footer_menu-item{
+        text-align: center;
+        margin: 20px 0;
+        line-height: 25px;
+    }
+
+    .copyright{
+        flex-direction: column;
+    }
+
+    .footer_input{
+        text-align: center;
+        width: 300px;
+        margin: 15px;
+    }
+
+    .input_email{
+        width: 300px;   
+    }
 }
-@media (max-width: 480px){
+
+@media (max-width: 480px) {
     .water_info-list{
         text-align: center;
         display: flex;
         flex-direction: column;
     }
+
     .water_info{
         position: absolute;
         bottom: 20px;
         right: 20px;
     }
+
     .about_us_bg_image{
         width: 100%;
     }
+
     .our_promise_bg-image{
         width: 100%;
     }
+
+    .author-info{
+        font-size: 12px;
+    }
 }
-
-
-
-    
-    
